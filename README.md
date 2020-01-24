@@ -4,6 +4,7 @@
 
 - [Workspace](workspace.md)
 - [Ffmpeg](ffmpeg.md)
+- [Youtube](youtube.md)
 - [Gnome](gnome.md)
 - [Tor](tor.md)
 
