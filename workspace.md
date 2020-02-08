@@ -4,7 +4,9 @@
 
 ```bash
 apt install -y cron curl htop make nano tmux unrar unzip vim wget
-apt install -y trimage
+apt install -y optipng jpegoptim
+apt install -y ffmpeg x265 x264
+apt install -y youtube-dl
 ```
 
 ```bash
