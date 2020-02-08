@@ -6,7 +6,7 @@
 - [Ffmpeg](ffmpeg.md)
 - [Youtube](youtube.md)
 - [Gnome](gnome.md)
-- [Tor](tor.md)
+- [VPN](vpn.md)
 
 ## Server
 
