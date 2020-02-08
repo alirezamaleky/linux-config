@@ -3,8 +3,6 @@
 ## Linux
 
 - [Workspace](workspace.md)
-- [Ffmpeg](ffmpeg.md)
-- [Youtube](youtube.md)
 - [Gnome](gnome.md)
 - [VPN](vpn.md)
 
