@@ -58,5 +58,5 @@ sudo ./wgcf.py
 ### Usage
 
 ```bash
-sudo wg-quick up /home/ubuntu/.wgcf/wgcf.conf
+sudo wg-quick up ~/.wgcf/wgcf.conf
 ```
