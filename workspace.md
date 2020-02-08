@@ -4,6 +4,7 @@
 
 ```bash
 apt install -y cron curl htop make nano tmux unrar unzip vim wget
+apt install -y trimage
 ```
 
 ```bash
