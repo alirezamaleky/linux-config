@@ -60,3 +60,10 @@ sudo ./wgcf.py
 ```bash
 sudo wg-quick up ~/.wgcf/wgcf.conf
 ```
+
+### Aliases
+
+```
+alias wrpon='sudo wg-quick up ~/.wgcf/wgcf.conf'
+alias wrpoff='sudo wg-quick down ~/.wgcf/wgcf.conf'
+```
