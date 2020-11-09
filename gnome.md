@@ -3,7 +3,7 @@
 ## Remove default Apps
 
 ```bash
-apt remove -y baobab cheese evince gnome-boxes gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-contacts gnome-logs gnome-maps gnome-photos gnome-power-manager gnome-screenshot gnome-startup-applications gnome-weather info mpv rhythmbox seahorse simple-scan yelp
+apt remove -y baobab cheese evince gnome-boxes gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-contacts gnome-logs gnome-maps gnome-photos gnome-power-manager gnome-screenshot gnome-startup-applications gnome-weather info mpv rhythmbox seahorse simple-scan yelp aisleriot gnome-mahjongg gnome-mines gnome-sudoku libreoffice*
 apt autoremove -y --purge
 ```
 
