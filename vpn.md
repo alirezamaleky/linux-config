@@ -41,29 +41,3 @@ sudo protonvpn init
 ```
 sudo protonvpn c -f -p UDP
 ```
-
-## Warp
-
-### Install
-
-```bash
-sudo add-apt-repository ppa:wireguard/wireguard && sudo apt install -y wireguard resolvconf net-tools jq
-
-wget https://gist.githubusercontent.com/oskar456/594f1b5e84ca887c439fb457800b377e/raw/ec61b40885eaf6c36e7680c5bd6231202eda8673/wgcf.py
-rm -rf ~/.wgcf/
-chmod +x ./wgcf.py
-sudo ./wgcf.py
-```
-
-### Usage
-
-```bash
-sudo wg-quick up ~/.wgcf/wgcf.conf
-```
-
-### Aliases
-
-```
-alias wrpon='sudo wg-quick up ~/.wgcf/wgcf.conf'
-alias wrpoff='sudo wg-quick down ~/.wgcf/wgcf.conf'
-```
