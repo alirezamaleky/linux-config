@@ -3,7 +3,7 @@
 ## Apps
 
 ```bash
-apt install -y cron curl htop make nano tmux unrar unzip vim wget
+apt install -y cron curl git htop make nano net-tools tmux unrar unzip vim wget
 apt install -y optipng jpegoptim
 apt install -y x265 x264 ffmpeg
 apt install -y youtube-dl
