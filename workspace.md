@@ -20,6 +20,17 @@ snap install uget --edge
 snap install vlc
 ```
 
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+nvm install --lts
+```
+
+```bash
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+apt update && apt install --no-install-recommends yarn
+```
+
 ## Privacy
 
 ```bash
