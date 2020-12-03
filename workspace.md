@@ -34,7 +34,7 @@ apt update && apt install --no-install-recommends -y yarn
 ```bash
 add-apt-repository ppa:ondrej/php
 apt install -y php8.0-{common,cli}
-apt install php8.0-{bz2,curl,intl,mysql,readline,xml}
+apt install -y php8.0-{bz2,curl,intl,mysql,readline,xml}
 ```
 
 ```bash
