@@ -28,7 +28,20 @@ nvm install --lts
 ```bash
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-apt update && apt install --no-install-recommends yarn
+apt update && apt install --no-install-recommends -y yarn
+```
+
+```bash
+add-apt-repository ppa:ondrej/php
+apt install -y php8.0-{common,cli}
+sudo apt install php8.0-{bz2,curl,intl,mysql,readline,xml}
+```
+
+```bash
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+mv composer.phar /usr/local/bin/composer
 ```
 
 ## Privacy
