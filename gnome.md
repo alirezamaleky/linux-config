@@ -14,7 +14,7 @@ rm -rf '/usr/share/applications/software-properties-livepatch.desktop'
 ## Tweak
 
 ```bash
-apt install -y gnome-tweak-tool chrome-gnome-shell
+apt install -y gnome-tweak-tool chrome-gnome-shell arronax
 ```
 
 ## Browser extension
