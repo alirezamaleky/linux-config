@@ -20,6 +20,7 @@ sudo apt install -y youtube-dl
 ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install -y ./google-chrome-stable_current_amd64.deb
+rm -f google-chrome-stable_current_amd64.deb
 ```
 
 ### Spotify
@@ -33,11 +34,13 @@ sudo apt update && sudo apt install -y spotify-client
 ```bash
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo apt install -y ./skypeforlinux-64.deb
+rm -f skypeforlinux-64.deb
 ```
 
 ### Postman
 ```bash
 wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz
+rm -f postman-linux-x64.tar.gz
 ```
 
 ### NVM
