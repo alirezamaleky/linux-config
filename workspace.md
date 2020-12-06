@@ -26,7 +26,7 @@ sudo apt install -y google-chrome-stable_current_amd64.deb
 ```bash
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update && sudo apt-get install -y spotify-client
+sudo apt update && sudo apt install -y spotify-client
 ```
 
 ### Skype
@@ -48,16 +48,16 @@ nvm install --lts
 
 ### Yarn
 ```bash
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-apt update && apt install --no-install-recommends -y yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update && sudo apt install --no-install-recommends -y yarn
 ```
 
 ### PHP
 ```bash
-add-apt-repository ppa:ondrej/php
-apt install -y php8.0-{common,cli}
-apt install -y php8.0-{mbstring,curl,xml,mysql}
+sudo add-apt-repository ppa:ondrej/php
+sudo apt install -y php8.0-{common,cli}
+sudo apt install -y php8.0-{mbstring,curl,xml,mysql}
 ```
 
 ### Composer
