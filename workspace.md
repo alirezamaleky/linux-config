@@ -10,7 +10,7 @@ echo 'rm -rf ~/.bash_history ~/.wget-hsts ~/.viminfo' >> ~/.bashrc
 ## Apps
 
 ```bash
-sudo apt install -y cron curl git htop make nano net-tools tmux unrar unzip vim wget gnome-mpv
+sudo apt install -y cron curl git htop make nano net-tools tar tmux unrar unzip vim wget gnome-mpv
 sudo apt install -y optipng jpegoptim
 sudo apt install -y x265 x264 ffmpeg
 sudo apt install -y youtube-dl
