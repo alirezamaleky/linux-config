@@ -19,8 +19,7 @@ sudo apt install -y youtube-dl
 ### Chrome
 ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install -y ./google-chrome-stable_current_amd64.deb
-rm -f google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb && rm -f google-chrome-stable_current_amd64.deb
 ```
 
 ### Spotify
@@ -33,23 +32,20 @@ sudo apt update && sudo apt install -y spotify-client
 ### Skype
 ```bash
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
-sudo apt install -y ./skypeforlinux-64.deb
-rm -f skypeforlinux-64.deb
+sudo apt install -y ./skypeforlinux-64.deb && rm -f skypeforlinux-64.deb
 ```
 
 ### Postman
 ```bash
 wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz
 tar -xf postman-linux-x64.tar.gz
-sudo mv Postman /mnt
-rm -f postman-linux-x64.tar.gz
+sudo mv Postman /mnt && rm -f postman-linux-x64.tar.gz
 ```
 
 ### Lantern
 ```bash
-wget https://github.com/getlantern/lantern-binaries/blob/master/lantern-installer-64-bit.deb
-sudo apt install -y lantern-installer-64-bit.deb
-rm -f lantern-installer-64-bit.deb
+wget https://github.com/getlantern/lantern-binaries/raw/master/lantern-installer-64-bit.deb
+sudo apt install -y ./lantern-installer-64-bit.deb && rm -f lantern-installer-64-bit.deb
 ```
 
 ### NVM
