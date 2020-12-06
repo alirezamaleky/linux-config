@@ -45,6 +45,13 @@ sudo mv Postman /mnt
 rm -f postman-linux-x64.tar.gz
 ```
 
+### Lantern
+```bash
+wget https://github.com/getlantern/lantern-binaries/blob/master/lantern-installer-64-bit.deb
+sudo apt install -y lantern-installer-64-bit.deb
+rm -f lantern-installer-64-bit.deb
+```
+
 ### NVM
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
