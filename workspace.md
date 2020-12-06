@@ -65,5 +65,5 @@ sudo apt install -y php8.0-{mbstring,curl,xml,mysql}
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
-mv composer.phar /usr/local/bin/composer
+sudo mv composer.phar /usr/local/bin/composer
 ```
