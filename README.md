@@ -4,7 +4,6 @@
 
 - [Workspace](workspace.md)
 - [Gnome](gnome.md)
-- [VPN](vpn.md)
 
 ## Server
 
