@@ -40,6 +40,8 @@ rm -f skypeforlinux-64.deb
 ### Postman
 ```bash
 wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz
+tar -xf postman-linux-x64.tar.gz
+sudo mv Postman /mnt
 rm -f postman-linux-x64.tar.gz
 ```
 
