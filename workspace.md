@@ -65,7 +65,7 @@ sudo apt update && sudo apt install --no-install-recommends -y yarn
 ```bash
 sudo add-apt-repository ppa:ondrej/php
 sudo apt install -y php8.0-{common,cli}
-sudo apt install -y php8.0-{mbstring,curl,xml,mysql}
+sudo apt install -y php8.0-{mbstring,curl,xml,mysql,zip}
 ```
 
 ### Composer
