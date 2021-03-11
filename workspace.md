@@ -29,6 +29,11 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 sudo apt update && sudo apt install -y spotify-client
 ```
 
+### Telegram
+```bash
+sudo apt install -y telegram-desktop
+```
+
 ### Skype
 ```bash
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
