@@ -10,7 +10,7 @@ sudo apt autoremove -y --purge
 ## Tweak
 
 ```bash
-sudo apt install -y gnome-tweak-tool chrome-gnome-shell arronax
+sudo apt install -y gnome-tweak-tool chrome-gnome-shell
 ```
 
 ## Browser extension
