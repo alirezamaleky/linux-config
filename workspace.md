@@ -39,7 +39,15 @@ sudo apt install -y ./skypeforlinux-64.deb && rm -f skypeforlinux-64.deb
 ```bash
 wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz
 tar -xf postman-linux-x64.tar.gz
-sudo mv Postman /mnt && rm -f postman-linux-x64.tar.gz
+sudo mv Postman /opt && rm -f postman-linux-x64.tar.gz
+echo '[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=/opt/Postman/app/Postman %U
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;' > ~/.local/share/applications/Postman.desktop
 ```
 
 ### Lantern
